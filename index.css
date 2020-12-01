@@ -139,7 +139,7 @@ form{
         width:65vw;
         font-size: 18px;
         margin-left:-14.5vw;
-        margin-top:25vw;
+        margin-top:43vw;
         padding-left:8vw;
         padding-top:14vw;
     }
@@ -187,7 +187,8 @@ form{
     }
     .sign{
         margin-top:10vw;
-        font-size: 14px;
+        margin-right:8vw;
+        font-size: 14.5px;
     }
 }
 @media(max-width:375px){
