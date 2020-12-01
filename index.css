@@ -1,0 +1,270 @@
+body {
+    background-color: #000;
+    overflow: hidden;
+}
+.bg{
+    position: absolute;
+    margin-left:-1vw;
+    margin-top:-4.5vw;
+    z-index:-1;
+    overflow: hidden;
+}
+  .st0 {
+    position: relative;
+    fill: none;
+    stroke: #008C4A;/* #1e3e92;*/
+    stroke-miterlimit: 10;
+    left:-1vw;
+    top:-1vw;
+  }
+  .st1 {
+    position: relative;
+    left:-1vw;
+    top:-1vw;
+    fill: none;
+    stroke: #d4af37;/* #1e3e92;*/
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+  }
+  
+.nb{
+    background-color: rgba(0,0,0,0.7) !important;
+    z-index:2;
+}
+form{
+    position: absolute;
+    top:2.5vw;
+}
+
+.container-fluid{
+    height:100vh;
+    width: 100vw;
+}
+.title{
+    font-size:26px !important;
+    position: relative;
+    left:41%;
+}
+.logo{
+    height:40px;
+    width:112px;
+    margin-left:1vw;
+}
+.cre1{
+    margin-top:-12vw;
+    margin-left:5.5vw;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+.input-area{
+    position: absolute;
+    left:33%;
+	height:32vw;
+	width:24vw;
+    padding:3vw;
+    padding-top:5vw;
+    padding-left: 3vw;
+    margin:5vw;
+    margin-top:7vw;
+    margin-left: 6vw;
+    border:1.5px solid whitesmoke;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,1);
+    color:white;
+    font-size: 18px;
+}
+.input-field{
+    background: transparent;
+    border:none;
+    margin-top:-0.5vw;
+    margin-bottom:0.6vw;
+    border-bottom: 1px solid whitesmoke;
+    border-spacing: 0.5vw;
+    width:18vw;
+    font-size:17px;
+    color:white;
+    font-family: sans-serif;
+    outline:none;
+}
+.submit-btn{
+    position: relative;
+    left:5vw;
+    margin-top:1vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:8vw;
+    height:auto;
+    border-radius: 3px;
+    font-size: 22px;
+    background-color: #00AACC;
+    color:white;
+    border:none;
+    outline:none;
+}
+.submit-btn:hover{
+    transform:scale(1.10);
+}
+.sign{
+    text-align: center;
+    margin-top: 2vw;
+    text-decoration: none;
+    outline: none;
+    font-size: 15px;
+}
+
+
+/* Media Query */
+
+@media (max-width:425px){
+    .bg{
+        position: absolute;
+        margin-left:-4vw;
+        margin-top:-15vw;
+    }
+    .title{
+        font-size: 20px;
+        left:2vw;
+        margin-right:10vw;
+    }
+    .cre1{
+        height:90px;
+        width:90px;
+        margin-top:-34vw;
+        margin-left:13vw;
+    }
+    .input-area{
+        height:100vw;
+        width:65vw;
+        font-size: 18px;
+        margin-left:-14.5vw;
+        margin-top:25vw;
+        padding-left:8vw;
+        padding-top:14vw;
+    }
+    .input-field{
+        width:50vw;
+        font-size:16px;
+        background-color: transparent;
+        border:none;
+        border-bottom: 1px solid whitesmoke;
+    }
+    .submit-btn{
+        width:30vw;
+        margin-left:4vw;
+        margin-top:4vw;
+    }
+    .ico{
+        font-size:18px;
+    }
+    .sign{
+        position: relative;
+        margin-top:7vw;
+        margin-right: 7vw;
+        font-size: 14px;
+    }
+}
+@media(max-width:400px){
+    .input-area{
+        height:105vw;
+        width:70vw;
+        padding-left:12.5vw;
+        padding-top:14vw;
+        margin-left:-17vw;
+        margin-top:30vw;
+    }
+    .submit-btn{
+        margin-top:4.5vw;
+    }
+    .cre1{
+        margin-left:11vw;
+    }
+}
+@media(max-width:385px){
+    .input-area{
+        height:110vw;
+    }
+    .sign{
+        margin-top:10vw;
+        font-size: 14px;
+    }
+}
+@media(max-width:375px){
+    .input-area{
+        position: absolute;
+        top:13vw;
+        height:100vw;
+        width:65vw;
+        padding-top:5vw;
+        margin-left:-15vw;
+        padding-left:-10vw;
+    }
+    .input-field{
+        margin-left:-4.2vw;
+    }
+    .cre1{
+        height: 75px;
+        width:75px;
+        margin-left:10vw;
+        margin-top:-25vw;
+    }
+    .submit-btn{
+        margin-left:0.5vw;
+        margin-top:5vw;
+        font-size:18px;
+    }
+    .sign{
+        margin-top:7vw;
+        font-size: 12.5px;
+    }
+}
+@media(max-width:365px){
+    .input-area{
+        position: absolute;
+        top:12vw;
+        height:105vw;
+        width:68vw;
+        font-size:18px;
+        padding-top:6vw;
+
+    }
+    .cre1{
+        height:70px;
+        width:70px;
+        margin-left:11.2vw;
+        margin-top:-26vw;
+    }
+    .submit-btn{
+        margin-left: 0.5vw;
+    }
+}
+@media(max-width:325px){
+    a.title{
+        font-size:10px;
+    }
+    .input-area{
+        height: 100vw;
+        width:65vw;
+        font-size: 15px;
+        padding-left:9.5vw;
+        margin-top:35vw;
+    }
+    .cre1{
+        height:60px;   
+        width:60px;
+        margin-left:13.2vw;
+    }
+    .submit-btn{
+        font-size:15px;
+        margin-left:2vw;
+    }
+    .sign{
+        font-size: 12px;
+    }
+}
+@media(max-width:335px){
+    .sign{
+        margin-right:6.5vw;
+    }
+}
