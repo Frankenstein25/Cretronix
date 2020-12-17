@@ -28,7 +28,7 @@ body {
   }
   
 .nb{
-    background-color: rgba(0,0,0,0.7) !important;
+    background-color: rgba(0,0,0,0.7)!important;
     z-index:2;
 }
 form{
@@ -43,12 +43,11 @@ form{
 .title{
     font-size:26px !important;
     position: relative;
-    left:41%;
+    left:38%;
 }
 .logo{
     height:40px;
     width:112px;
-    margin-left:1vw;
 }
 .cre1{
     margin-top:-12vw;
@@ -109,23 +108,34 @@ form{
 .sign{
     text-align: center;
     margin-top: 2vw;
-    text-decoration: none;
-    outline: none;
     font-size: 15px;
 }
-
+a.su:link{
+    color:green !important;
+    text-decoration: none;
+    background:transparent;
+}
 
 /* Media Query */
 
 @media (max-width:425px){
+    .nb{
+        background-color: #000 !important;
+        opacity:1;
+    }
+    .logo{
+        height:35px;
+        width:100px;
+    }
     .bg{
         position: absolute;
         margin-left:-4vw;
         margin-top:-15vw;
+        background-size: cover;
     }
     .title{
-        font-size: 20px;
-        left:2vw;
+        font-size: 20px !important;
+        left:1vw;
         margin-right:10vw;
     }
     .cre1{
@@ -141,7 +151,7 @@ form{
         margin-left:-14.5vw;
         margin-top:25vw;
         padding-left:8vw;
-        padding-top:14vw;
+        padding-top:15vw;
     }
     .input-field{
         width:50vw;
