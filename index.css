@@ -12,7 +12,7 @@ body {
   .st0 {
     position: relative;
     fill: none;
-    stroke: #008C4A;/* #1e3e92;*/
+    stroke: #008C4A;
     stroke-miterlimit: 10;
     left:-1vw;
     top:-1vw;
@@ -22,10 +22,13 @@ body {
     left:-1vw;
     top:-1vw;
     fill: none;
-    stroke: #d4af37;/* #1e3e92;*/
+    stroke: #d4af37;
     stroke-linecap: round;
     stroke-miterlimit: 10;
   }
+.nbc{
+    margin-right:1vw;
+}
   
 .nb{
     background-color: rgba(0,0,0,0.7)!important;
