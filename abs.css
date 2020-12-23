@@ -116,11 +116,14 @@ a.qno:hover{
     height:30px;
     width:30px;
     border-radius: 50%;
-    margin-left: 1.6vw;
+    margin-left: 6vw;
 }
 .si:hover{
     cursor:pointer;
     transform:scale(1.15);
+}
+.ft{
+    font-size:18px;
 }
 
 /* Media Query */
@@ -187,7 +190,10 @@ a.qno:hover{
         padding: 8% !important;
     }
     .si{
-        margin-left:7.3vw;
+        margin-left:24.3vw;
+    }
+    .ft{
+        font-size:12px;
     }
 }
 @media(max-width:376px){
@@ -202,12 +208,12 @@ a.qno:hover{
         font-size:5.2vw;
     }
     .si{
-        margin-left:5.8vw;
+        margin-left:20.5vw;
     }
 }
 @media(max-width:350px){
     .si{
-        margin-left:5.2vw;
+        margin-left:20.5vw;
     }
 }
 @media(max-width:321px){
