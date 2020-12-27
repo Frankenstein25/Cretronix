@@ -9,6 +9,7 @@ html, body {
     background-size: cover;
     background-position: center;
  	  font-family: sans-serif;
+    
  }
  body::before{
    content:"";
@@ -30,13 +31,13 @@ html, body {
     padding: 0;
  }
  #navbar{
-background: rgba(0,0,0,0.8);
+background: rgba(0,0,0,0.7);
 font-family: "Segoe UI",Roboto,Arial,sans-serif;
 }
 #credenzlogo{
   
-  width: 130px;
-  height: 46px;
+  height: 40px;
+  width: 115px;
   margin-left: 0vw;
   padding:0vw;
 
@@ -103,18 +104,17 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   }
 
 #ho{
-  color : white;
-  margin-right:1vw;		
+	color : white;		
 }
 
 #ru{
-  color : white ;	
-  margin-right:1vw;
+	color : white ;
+	margin-right: 1vw;
+	font-size: 1.15rem;	
 }
 
 #abt{
-  color : white ;
-  margin-right:1vw;
+	color : white ;
 
 }
 #lo{
@@ -154,10 +154,11 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   height: 8vh;
   overflow: auto;
   margin-top: 8vh;
-  padding-top: 1.7vh;
+  padding-top: 1.9vh;
   border-radius: 10px;
   cursor: pointer;
   background-color:#001122;
+  padding-left: 15.5vw;
 }
 #op1:focus{
   background-color: #00AACC;
@@ -167,10 +168,11 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   height: 8vh;
   overflow: auto;
   margin-top: 2.5vh;
-  padding-top: 1.7vh;
+  padding-top: 1.9vh;
   border-radius: 10px;
   cursor: pointer; 
   background-color:#001122;
+  padding-left: 15.5vw;
 }
 #op2:focus{
   background-color: #00AACC;
@@ -180,10 +182,11 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   height: 8vh;
   overflow: auto;
   margin-top: 2.5vh;
-  padding-top: 1.7vh;
+  padding-top: 1.9vh;
   border-radius: 10px;
   cursor: pointer;
   background-color:#001122;
+  padding-left: 15.5vw;
 }
 #op3:focus{
   background-color: #00AACC;
@@ -193,10 +196,11 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   height: 8vh;
   overflow: auto;
   margin-top: 2.5vh;
-  padding-top: 1.7vh;
+  padding-top: 1.9vh;
   border-radius: 10px;
   cursor: pointer;
   background-color:#001122;
+  padding-left: 15.5vw;
 }
 #op4:focus{
   background-color: #00AACC;
@@ -239,10 +243,16 @@ a.questionnumber{
 }
 
 footer{
-background-color:  rgba(0,0,0,0.8);
-font-family: "Segoe UI",Roboto,Arial,sans-serif;
-font-size: 1.25rem;
+background-color:  rgba(0,0,0,0.7)!important;
+color: white;
+font-size: 18px;
 
+}
+a.abs{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    
 }
 #ft1{
   display: inline-block;
@@ -258,6 +268,10 @@ img{
   display: inline-block;
   position: relative;    
   margin-left: 14vw;
+}
+.ft{
+	padding-bottom: 2vh;
+	padding-top: 2vh;
 }
 
 @media (max-width: 387px){
@@ -278,13 +292,9 @@ img{
  
   display: none;
 }
-.log{
-  position: relative;
-  height:40px;
-  width:120px;
-  margin-top: 3vw;
-  margin-bottom:3vw;
-  left:32%;
+#credenzlogo{
+	height: 35px;
+	width: 100px;
 }
 #q1{
   margin-left: 18vw;
@@ -292,7 +302,25 @@ img{
 }
 footer{
   margin-top: 60vh;
+  
+  background-color:  rgba(0,0,0,1)!important;
 }
+.ft{
+	
+	margin-top: 1vh;
+	font-size: 12px;
+	padding-bottom: 0vw;
+	
+}
+a.abs{
+    text-decoration: none;
+    color:white;
+    font-size:12px;
+    padding-top: 0vw;
+    
+    
+}
+
 #ft1{
   display: none;
   position: relative;    
@@ -300,12 +328,7 @@ footer{
   font-size: 1rem;
 
 }
-img{
-  width: 90px;
-  height: 35px; 
-  margin-left: 1vw;
-  display: inline-block;
- }
+
 #ft2{
   display: none;
   position: relative;    
@@ -323,6 +346,7 @@ img{
   margin-top: 2vh;
   padding-top: 2.1vh;
   border-radius: 10px;
+  padding-left: 19.7vw;
 }
 #op2{
   height: 9.5vh;
@@ -330,6 +354,7 @@ img{
   margin-top: 2.5vh;
   padding-top: 2.1vh;
   border-radius: 10px;
+  padding-left: 19.7vw;
   
 }
 #op3{
@@ -338,6 +363,7 @@ img{
   margin-top: 2.5vh;
   padding-top: 2.1vh;
   border-radius: 10px;
+  padding-left: 19.7vw;
 }
 #op4{
   height: 9.5vh;
@@ -345,6 +371,7 @@ img{
   margin-top: 2.5vh;
   padding-top: 2.1vh;
   border-radius: 10px;
+  padding-left: 19.7vw;
 }
 #questionbox{
   height: 27vh;
@@ -375,14 +402,13 @@ img{
 #pag{  
    margin-left: 8.5vw;
    margin-top: 3vh;
+   font-size: 16.9px;
  }
  .qno{
   background-color: #001122;
   color:white;
  }
-#credenzlogo{
-  width: 85px;
-}
+
 .log{
 	margin-left: 1.5vw;
 }
@@ -423,6 +449,27 @@ img{
   #ft2{
     font-size: 15.5px;
   }
+   #op1{
+   	padding-top: 2.5vh;
+   	font-size: 1.2rem;
+   	padding-left: 19vw;
+  }
+   #op2{
+   	padding-top: 2.5vh;
+   	font-size: 1.2rem;
+   	padding-left: 19vw;
+  }
+   #op3{
+   	padding-top: 2.5vh;
+   	font-size: 1.2rem;
+   	padding-left: 19vw;
+  }
+   #op4{
+   	padding-top: 2.5vh;
+   	font-size: 1.2rem;
+   	padding-left: 19vw;
+  }
+
   .log{
     position: relative;
     left:34%;
@@ -516,6 +563,26 @@ img{
   margin-top: 8.3vh;
   margin-left: 4.8vw;
 }
+#op1{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+   	padding-left: 16.5vw;
+  }
+   #op2{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+   	padding-left: 16.5vw;
+  }
+   #op3{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+   	padding-left: 16.5vw;
+  }
+   #op4{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+   	padding-left: 16.5vw;
+  }
 #questionbox{
   height: 27vh;
   overflow: auto;
@@ -539,6 +606,42 @@ img{
   #pag{
     font-size: 13px;
   }
+   #op1{
+   	padding-top: 2.1vh;
+   	font-size: 1.2rem;
+   	padding-left: 15vw;
+
+  }
+   #op2{
+   	padding-top: 2.1vh;
+   	font-size: 1.2rem;
+   	padding-left: 15vw;
+  }
+   #op3{
+   	padding-top: 2.1vh;
+   	font-size: 1.2rem;
+   	padding-left: 15vw;
+  }
+   #op4{
+   	padding-top: 2.1vh;
+   	font-size: 1.2rem;
+   	padding-left: 15vw;
+  }
+  .ft{
+	
+	margin-top: 1vh;
+	font-size: 11.5px;
+	padding-bottom: 0vw;
+	
+}
+a.abs{
+    text-decoration: none;
+    color:white;
+    font-size:11.5px;
+    padding-right: 0vw;
+    
+    
+}
   #ft1{
     font-size: 0.85rem;
   }
@@ -576,6 +679,7 @@ img{
     font-size:13px ;
     margin-left:5.8vw;
   }
+
   #ft1{
     font-size: 13.5px;
   }
@@ -590,7 +694,7 @@ img{
   }
   
 }
-@media (max-width:361px){
+@media (max-width:362px){
   #pag{
     font-size:13px ;
     margin-left:5.8vw;
@@ -598,9 +702,40 @@ img{
   #ft1{
     font-size: 13.1px;
   }
+   #op1{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
+   #op2{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
+   #op3{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
+   #op4{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
   #ft2{
     font-size: 13.1px;
   }
+  .ft{
+	
+	margin-top: 1vh;
+	font-size: 11.3px;
+	padding-bottom: 0vw;
+	
+}
+a.abs{
+    text-decoration: none;
+    color:white;
+    font-size:11.3px;
+    padding-right: 0vw;
+    
+    
+}
   .log{
     position: relative;
     left:32%;
@@ -637,6 +772,21 @@ img{
     font-size:13px ;
     margin-left:5.4vw;
   }
+  .ft{
+	
+	margin-top: 1vh;
+	font-size: 11.1px;
+	padding-bottom: 0vw;
+	
+}
+a.abs{
+    text-decoration: none;
+    color:white;
+    font-size:11.1px;
+    padding-right: 0vw;
+    
+    
+}
   #ft1{
     font-size: 13px;
   }
@@ -656,6 +806,21 @@ img{
     font-size:13px ;
     margin-left:4.9vw;
   }
+  .ft{
+	
+	margin-top: 1vh;
+	font-size: 10.5px;
+	padding-bottom: 0vw;
+	
+}
+a.abs{
+    text-decoration: none;
+    color:white;
+    font-size:10.5px;
+    padding-right: 0vw;
+    
+    
+}
   #ft1{
     font-size: 12.8px;
   }
@@ -751,6 +916,41 @@ img{
     font-size:12px ;
     margin-left:3.2vw;
   }
+   #op1{
+   	padding-top: 1.9vh;
+   	font-size: 1.2rem;
+   	padding-left: 12vw;
+  }
+   #op2{
+   	padding-top: 1.9vh;
+   	font-size: 1.2rem;
+   	padding-left: 12vw;
+  }
+   #op3{
+   	padding-top: 1.9vh;
+   	font-size: 1.2rem;
+   	padding-left: 12vw;
+  }
+   #op4{
+   	padding-top: 1.9vh;
+   	font-size: 1.2rem;
+   	padding-left: 12vw;
+  }
+  .ft{
+	
+	margin-top: 1vh;
+	font-size: 9.5px;
+	padding-bottom: 0vw;
+	
+}
+a.abs{
+    text-decoration: none;
+    color:white;
+    font-size:9.5px;
+    padding-right: 0vw;
+    
+    
+}
   #ft1{
     font-size: 11.8px;
   }
@@ -1078,12 +1278,10 @@ position: relative;
     margin-left: 19.3vw;
   }
   #credenzlogo{
-    width: 100px;
-  }
-  img{
+    width: 115px;
     height: 40px;
-    width: 110px;
   }
+
   footer{
     font-size: 1rem;
   }
@@ -1169,7 +1367,8 @@ position: relative;
     font-size: 1.4rem;
   }
   #credenzlogo{
-    width: 125px;
+    width: 115px;
+    height: 40px;
   }
 
 
@@ -1196,11 +1395,10 @@ position: relative;
     font-size: 1.4rem;
   }
   #credenzlogo{
-    width: 130px;
+    width: 115px;
+    height: 40px;
   }
-  img{
-    height: 48px;
-  }
+  
 
 
 }
@@ -1226,8 +1424,8 @@ position: relative;
     font-size: 1.4rem;
   }
   #credenzlogo{
-    width: 135px;
-    height: 45px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 52px;
@@ -1258,8 +1456,8 @@ position: relative;
     font-size: 1.4rem;
   }
   #credenzlogo{
-    width: 140px;
-    height: 45px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 52px;
@@ -1290,8 +1488,8 @@ position: relative;
     font-size: 1.7rem;
   }
   #credenzlogo{
-    width: 140px;
-    height: 50px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 65px;
@@ -1322,8 +1520,8 @@ position: relative;
     font-size: 1.7rem;
   }
   #credenzlogo{
-    width: 155px;
-    height: 58px;
+  width: 115px;
+    height: 40px;
   }
   img{
     height: 60px;
@@ -1357,8 +1555,8 @@ position: relative;
     font-size: 1.7rem;
   }
   #credenzlogo{
-    width: 155px;
-    height: 58px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 60px;
@@ -1392,8 +1590,8 @@ position: relative;
     font-size: 1.8rem;
   }
   #credenzlogo{
-    width: 160px;
-    height: 62px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 65px;

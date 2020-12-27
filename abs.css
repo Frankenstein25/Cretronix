@@ -86,6 +86,7 @@ footer {
     text-align:center;
     color:whitesmoke;
     background-color:#001122;
+    margin-bottom:1vw;
 }
 .quepg{
     margin-top:2vw;
@@ -101,7 +102,7 @@ a.qno:hover{
     translate:scale(1.08);
 }
 .formedia{
-    height:18vw;
+    height:21vw;
     width:17vw;
     margin-left:3vw;
     margin-top:2.5vw;
@@ -113,10 +114,12 @@ a.qno:hover{
     transform: scale(1.05);
 }
 .si{
+    position: relative;
     height:30px;
     width:30px;
     border-radius: 50%;
     margin-left: 6vw;
+    margin-top:1vw;
 }
 .si:hover{
     cursor:pointer;
@@ -124,6 +127,14 @@ a.qno:hover{
 }
 .ft{
     font-size:18px;
+}
+.pro{
+    position: relative;
+    height:14vw;
+    width:12.8vw;
+    bottom:2vw;
+    left:0.6vw;
+    border-radius:3px;
 }
 
 /* Media Query */
@@ -156,6 +167,12 @@ a.qno:hover{
 }
 
 @media(max-width:426px){
+    .pro{
+        height:53.5vw;
+        width:50vw;
+        bottom:5.5vw;
+        left:2.5vw;
+    }
     .quepg{
         margin-top:6vw;
     }
@@ -197,6 +214,13 @@ a.qno:hover{
     }
 }
 @media(max-width:376px){
+    .pro{
+        width:48vw;
+        left:0.7vw;
+    }
+    .si{
+        margin-top:3vw;
+    }
     .formedia{
         margin-left: 16.5vw;
         margin-top: 5vw;
@@ -213,7 +237,12 @@ a.qno:hover{
 }
 @media(max-width:350px){
     .si{
+        position: relative;
         margin-left:20.5vw;
+        bottom:-2vw;
+    }
+    .pro{
+        left:0.1vw;
     }
 }
 @media(max-width:321px){

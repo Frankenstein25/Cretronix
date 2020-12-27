@@ -45,7 +45,6 @@ img{
 
 .bar {
     font: 25px sans-serif;
-    margin-left: 3vw;
 }
 
 
@@ -60,6 +59,15 @@ img{
     color: white;
     outline-style: none;
     width: 12vw;
+}
+
+.ftt{
+    color:white;
+    font-size:18px;
+}
+a.abt{
+    color:white;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -234,6 +242,9 @@ img{
 }
 footer{
     margin-top: 3vh;
+}
+.ftt{
+    font-size:12px;
 }
 }
 @media (max-width: 768px){
