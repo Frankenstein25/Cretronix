@@ -131,6 +131,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   border-radius: 10px;
   padding-left: 4vw;
   background-color:#001122;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #imagerow{
   height: 58vh;
@@ -159,6 +160,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   cursor: pointer;
   background-color:#001122;
   padding-left: 15.5vw;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #op1:focus{
   background-color: #00AACC;
@@ -173,6 +175,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   cursor: pointer; 
   background-color:#001122;
   padding-left: 15.5vw;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #op2:focus{
   background-color: #00AACC;
@@ -187,6 +190,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   cursor: pointer;
   background-color:#001122;
   padding-left: 15.5vw;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #op3:focus{
   background-color: #00AACC;
@@ -201,6 +205,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   cursor: pointer;
   background-color:#001122;
   padding-left: 15.5vw;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #op4:focus{
   background-color: #00AACC;
@@ -224,23 +229,29 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   padding-top:1vw;
 }
 #q1{
-  height: 6vh;
+  height: 5.5vh;
   overflow: auto;
   color: white;
   text-align: center;
   justify-content: center;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #001122;
+  
+  padding-top: 1vh;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.6vh;
+
 }
-#q1:focus{
-  background-color: #00AACC;
-  color:#001122;
+.box :hover{
+  
+
 }
+
 a.questionnumber{
   color: white;
   text-decoration: none;
 }
+
 
 footer{
 background-color:  rgba(0,0,0,0.7)!important;
