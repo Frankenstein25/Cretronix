@@ -58,7 +58,7 @@ body{
     box-shadow: 0 10px 20px black;
     background-size: cover;
     font-family: 'Abel', sans-serif;
-    background-image: url("ak.jpeg");
+    background-image: url("fk.jpeg");
     border-radius:5px;
     cursor:pointer;
     margin-left:2vw;
@@ -69,7 +69,7 @@ body{
     box-shadow: 0 10px 20px black;
     background-size: cover;
     font-family: 'Abel', sans-serif;
-    background-image: url("aks.jpeg");
+    background-image: url("od.jpeg");
     border-radius:5px;
     cursor: pointer;
     margin-left:3vw;
@@ -80,7 +80,7 @@ body{
     box-shadow: 0 10px 20px black;
     background-size: cover;
     font-family: 'Abel', sans-serif;
-    background-image: url("jr.jpeg");
+    background-image: url("sp.jpeg");
     border-radius:5px;
     cursor: pointer;
     margin-left:3vw;
@@ -91,7 +91,7 @@ body{
     box-shadow: 0 10px 20px black;
     background-size: cover;
     font-family: 'Abel', sans-serif;
-    background-image: url("mk.jpeg");
+    background-image: url("sd1.jpeg");
     border-radius:5px;
     cursor: pointer;
     margin-left:4vw;
@@ -103,7 +103,7 @@ body{
     box-shadow: 0 10px 20px black;
     background-size: cover;
     font-family: 'Abel', sans-serif;
-    background-image: url("ac.jpeg");
+    background-image: url("ab3.jpeg");
     border-radius:5px;
     cursor:pointer;
     margin-left:27vw;
@@ -114,10 +114,18 @@ body{
     box-shadow: 0 10px 20px black;
     background-size: cover;
     font-family: 'Abel', sans-serif;
-    background-image: url("aj.jpeg");
+    background-image: url("rv1.jpeg");
     border-radius:5px;
     cursor: pointer;
     margin-left:3vw;
+}
+.st{
+    position: relative;
+    margin-top:2.5vw;
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+    text-align: center;
 }
 .main1:hover{
     transform: scale(1.05);
@@ -136,14 +144,6 @@ body{
 }
 .main6:hover{
     transform: scale(1.05);
-}
-.st{
-    position: relative;
-    margin-top:2.5vw;
-    color:white;
-    font-size:25px;
-    font-weight:bold;
-    text-align: center;
 }
 /*.gradient {
     height: 20vw;
@@ -230,41 +230,41 @@ footer {
         height:72vw;
         width:64vw;
         margin-top:10vw;
-        margin-left:14vw;
+        margin-left:13.5vw;
         overflow: hidden;
     }
     .main2{
         height:72vw;
         width:64vw;
         margin-top:10vw;
-        margin-left:14vw;
+        margin-left:13.5vw;
         overflow: hidden;
     }
     .main3{
         height:72vw;
         width:64vw;
         margin-top:10vw;
-        margin-left:14vw;
+        margin-left:13.5vw;
         overflow: hidden;
     }
     .main4{
         height:72vw;
         width:64vw;
         margin-top:10vw;
-        margin-left:14vw;
+        margin-left:13.5vw;
     }
     .main5{
         height:72vw;
         width:64vw;
         margin-top:8vw;
-        margin-left:14vw;
+        margin-left:13.5vw;
         overflow: hidden;
     }
     .main6{
         height:72vw;
         width:64vw;
         margin-top:10vw;
-        margin-left:14vw;
+        margin-left:13.5vw;
         overflow: hidden;
     }
     .st{
@@ -295,16 +295,5 @@ footer {
     }
     h2{
         padding-top:8vw;
-    }
-}
-@media(max-width:360px){
-    .icons i{
-        font-size:25px;
-    }
-    .icons{
-        bottom:18.5vw;
-    }
-    h2{
-        padding-top:7vw;
     }
 }
