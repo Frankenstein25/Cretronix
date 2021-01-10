@@ -213,15 +213,17 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
 #btn{
   margin-top: 3.5vh;
   height: 6vh;
-  border-radius: 10px;
-  border:none;
+  border-radius: 3px;
+  
   outline: none;
   width: 8vw;
   background: linear-gradient(-180deg,#00AACC,#001122);
   color:white;
   text-align: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 22px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
 }
 #questionoption{
   overflow: auto;
@@ -339,9 +341,10 @@ a.abs{
   font-size: 1rem;
 }
 #btn{
-  margin-left: 36%;
-  margin-top: 1.8vh;
-  width: 23vw;
+  margin-left: 22%;
+  margin-top: 2.9vh;
+  width: 25vw;
+  font-size: 18px;
 }
 #op1{
   height: 9.5vh;
@@ -1180,8 +1183,8 @@ position: relative;
     margin-top: 3.8vh;
   }
   footer{
-    font-size: 1rem;
-    margin-top: 1.3vh;
+    font-size: 0.8rem;
+    margin-top: 2.6vh;
   }
   #credenzlogo{
     width: 90px;
@@ -1197,6 +1200,7 @@ position: relative;
   }
   #btn{
   width: 14vw;
+  font-size: 19px;
 }
 
 
@@ -1242,6 +1246,10 @@ position: relative;
   }
    #ft1{
     margin-left: 15.9vw;
+  }
+  #btn{
+    width: 12vw;
+    font-size: 20px;
   }
 
 }
@@ -1372,6 +1380,9 @@ position: relative;
   #credenzlogo{
     width: 115px;
     height: 40px;
+  }
+  #btn{
+    font-size: 22px;
   }
 
 
@@ -1555,7 +1566,7 @@ position: relative;
     margin-top: 7.9vh;
   }
   footer{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
   #credenzlogo{
     width: 115px;
@@ -1567,6 +1578,9 @@ position: relative;
   }
   #questionoption{
     margin-top: 2.8vh;
+  }
+  #btn{
+    font-size: 29px;
   }
 
 

@@ -66,12 +66,12 @@ font-size: 18px;
 
 #btn {
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     border: 1px solid grey;
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.3vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 12vw;
@@ -116,9 +116,9 @@ a.abt{
         position: absolute;
         z-index: 1000;
         font-family: sans-serif;
-        font-size: 20px;
+        font-size: 22px;
         border: 1px solid white;
-        border-radius: 5px;
+        border-radius: 3px;
         background: #002244;
         box-shadow: 0px 15px 30px 4px rgba(0, 0, 0, 0.8);
     }
@@ -172,7 +172,7 @@ img{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.6vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 27vw;
@@ -216,7 +216,7 @@ img{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.6vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 24vw;
@@ -262,7 +262,7 @@ img{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.5vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 25vw;
@@ -347,7 +347,7 @@ footer{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 3.4vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 10vw;
@@ -384,7 +384,7 @@ footer{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.5vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 9vw;
@@ -405,7 +405,7 @@ footer{
     background-color:  rgba(0,0,0,0.8);
     box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.8);
     width: 70vw;
-    border-radius: 15px;
+    border-radius: 3px;
 }
 .box .card-body{
     font-size: 18px;
@@ -423,7 +423,7 @@ footer{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.7vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 9.6vw;
@@ -475,7 +475,7 @@ img{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.8vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 9.7vw;
@@ -527,7 +527,7 @@ img{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.4vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 11.1vw;
@@ -579,7 +579,7 @@ img{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.5vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 11.1vw;
@@ -630,7 +630,7 @@ img{
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     margin-top: 2.4vh;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     outline-style: none;
     width: 11.1vw;
