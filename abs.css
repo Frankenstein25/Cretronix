@@ -145,6 +145,11 @@ body{
     font-weight:bold;
     text-align: center;
 }
+a.ps{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+}
 /*.gradient {
     height: 20vw;
     width: 17vw;
@@ -283,8 +288,9 @@ footer {
         padding: 8% !important;
     }
     .ft{
-        font-size:12px;
+        font-size:15px;
         overflow: hidden;
+        
     }
     .content{
         height:20vw;
@@ -295,6 +301,14 @@ footer {
     }
     h2{
         padding-top:8vw;
+    }
+    a.ps{
+        font-size:15px;
+    }
+}
+@media(max-width:392px){
+    #adjust{
+        padding:12% !important;
     }
 }
 @media(max-width:360px){

@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+    background-color: #001122;
     overflow: hidden;
 }
 .bg{
@@ -12,7 +12,7 @@ body {
   .st0 {
     position: relative;
     fill: none;
-    stroke: #008C4A;
+    stroke:#00AACC;/* #008C4A;*/
     stroke-miterlimit: 10;
     left:-1vw;
     top:-1vw;
@@ -22,7 +22,7 @@ body {
     left:-1vw;
     top:-1vw;
     fill: none;
-    stroke: #d4af37;
+    stroke:#002288;/* #d4af37;*/
     stroke-linecap: round;
     stroke-miterlimit: 10;
   }
@@ -55,6 +55,10 @@ form{
     height:40px;
     width:115px;
 }
+.il{
+    height:40px;
+    width:115px;
+}
 .cre1{
     margin-top:-12vw;
     margin-left:5.5vw;
@@ -72,10 +76,10 @@ form{
     padding-left: 3vw;
     margin:5vw;
     margin-top:7vw;
-    margin-left: 6vw;
+    margin-left: 27vw;
     border:1.5px solid whitesmoke;
     border-radius: 15px;
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0.7);
     color:white;
     font-size: 18px;
     font-family:Roboto;
@@ -113,6 +117,7 @@ form{
 }
 .submit-btn:hover{
     transform:scale(1.10);
+    background-color: #00AACC;
 }
 .sign{
     text-align: center;
@@ -138,9 +143,56 @@ a.ft{
 .nt{
     font-size:18px;
 }
+.cred{
+    height:280px;
+    width:310px;
+    margin-right:-4vw;
+    margin-bottom:1vw;
+    margin-left:-2vw;
+}
+.txt{
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    margin-left:1vw;
+    justify-content: center;
+}
+.stxt{
+    position: relative;
+    font-size:35px;
+    left:15vw;
+    bottom:4vw;
+    font-weight:500;
+    justify-content: center;
+}
+.en{
+    position: relative;
+    color:white;
+    font-size:80px;
+    font-weight:bold;
+    left:6vw;
+    top:-5vw;
+    justify-content: center;
+}
 /* Media Query */
 
 @media (max-width:425px){
+    .il{
+        display:none;
+    }
+    .cred{
+        height:100px;
+        width:110px;
+    }
+    .txt{
+        font-size:25px;
+    }
+    .stxt{
+        font-size:20px;
+    }
+    .en{
+        font-size:30px;
+    }
     .nb{
         background-color: #000 !important;
         opacity:1;
@@ -177,8 +229,8 @@ a.ft{
         height:100vw;
         width:65vw;
         font-size: 18px;
-        margin-left:-14.5vw;
-        margin-top:25vw;
+        margin-left:-20.5vw;
+        margin-top:70vw;
         padding-left:8vw;
         padding-top:15vw;
     }

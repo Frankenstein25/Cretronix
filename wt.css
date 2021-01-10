@@ -283,7 +283,7 @@ footer {
         padding: 8% !important;
     }
     .ft{
-        font-size:12px;
+        font-size:15px;
         overflow: hidden;
     }
     .content{
@@ -295,5 +295,18 @@ footer {
     }
     h2{
         padding-top:8vw;
+    }
+}
+@media(max-width:400px){
+    #adjust{
+        padding:8% !important;
+    }
+    .ft{
+        font-size:14px;
+    }
+}
+@media(max-width:370px){
+    #adjust{
+        padding:12% !important;
     }
 }
