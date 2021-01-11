@@ -41,6 +41,14 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   padding:0vw;
 
  }
+ #cretronixlogo{
+  
+  height: 40px;
+  width: 65px;
+  margin-left: -0.8vw;
+  padding:0vw;
+
+ }
 .clock {
     font-size:1.5vw; 
     color: #ffffff;
@@ -298,9 +306,16 @@ img{
   display: none;
 }
 #credenzlogo{
-	height: 35px;
-	width: 100px;
+	display: none;
 }
+#cretronixlogo{
+  
+  height: 35px;
+  width: 65px;
+  margin-left: -2vw;
+  padding:0vw;
+
+ }
 #q1{
   margin-left: 18vw;
 
@@ -392,7 +407,7 @@ a.abs{
     font-size:4vw; 
     padding:0.2vw;
     
-    margin-left: -9.9vw;
+    margin-left: -6.2vw;
     padding-top: 0.6vw;
   }
   
@@ -1350,6 +1365,17 @@ position: relative;
   footer{
     font-size: 1.3rem;
   }
+  #credenzlogo{
+    margin-top: 0.3vh;
+  }
+  #cretronixlogo{
+  
+  height: 40px;
+  width: 75px;
+  margin-left: -0.8vw;
+  padding:0vw;
+
+ }
 
 
 }
@@ -1472,11 +1498,16 @@ position: relative;
   #credenzlogo{
     width: 115px;
     height: 40px;
+    margin-top: 0.4vh;
   }
-  img{
-    height: 52px;
-    width: 125px;
-  }
+  #cretronixlogo{
+  
+  height: 40px;
+  width: 80px;
+  margin-left: -0.8vw;
+  padding:0vw;
+
+ }
 
 
 }
@@ -1504,6 +1535,7 @@ position: relative;
   #credenzlogo{
     width: 115px;
     height: 40px;
+    margin-top: 0.55vh;
   }
   img{
     height: 65px;
@@ -1570,12 +1602,18 @@ position: relative;
   }
   #credenzlogo{
     width: 115px;
-    height: 40px;
+    height: 45px;
+     margin-top: 0.7vh;
   }
-  img{
-    height: 60px;
-    width: 145px;
-  }
+  #cretronixlogo{
+  
+  height: 45px;
+  width: 85px;
+  margin-left: -0.8vw;
+  padding:0vw;
+
+ }
+
   #questionoption{
     margin-top: 2.8vh;
   }
