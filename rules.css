@@ -109,11 +109,11 @@ a.abt{
     
     .bar a{
     font: 20px ROBOTO;
-    margin-left: 8.4vw;
+    margin-left: 0.5vw;
     
 }
 #pisblogo{
-    margin-left: 15.3vw;
+    margin-left: 1vw;
     height: 30px;
     width: 90px;
 }
@@ -124,45 +124,53 @@ a.abt{
 
 
 }
-
+.box {
+    margin-left: 6.4vw;
+    padding: 0;
+    margin-top: 3.5vh;
+    background:#002244;
+    height: 72.2vh;
+    border: 0px;
+    font-family: sans-serif;
+    background-color:  rgba(0,0,0,0.8);
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.8);
+    width: 80vw;
+    border-radius: 15px;
 }
-@media (max-width: 768px) {
-    .bar {
-        font: 25px sans-serif;
-        margin-left: 0;
-    }
-
-    .box {
-        margin-left: 4vw;
-        padding: 0px;
-        width: 90%;
-    }
-    .btn {
-        border: 0px;
-        width: 90%;
-        margin-left: 4vw;
-        padding: 0px;
-        position: absolute;
-        z-index: 1000;
-        font-family: sans-serif;
-        font-size: 22px;
-        border: 1px solid white;
-        border-radius: 3px;
-        background: #002244;
-        box-shadow: 0px 15px 30px 4px rgba(0, 0, 0, 0.8);
-    }
-
-    footer {
-        margin-top: 23vw;
-    }
-
-   
+.bar {
+    font: 1rem sans-serif;
+    margin-left: 14.9vw;
+}
+.box .card-body{
+    font-size: 16px;
+}
+h3{
+    font-size: 19px;
 }
 
+ #btn {
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 1px solid black ;
+    background: linear-gradient(-180deg,#00AACC,#001122);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    margin-top: 2.5vh;
+    border-radius: 3px;
+    color: white;
+    outline-style: none;
+    width: 25vw;
+    height: 6vh;
+    padding-top: 0px;
+    
+}
+footer{
+    margin-top: 3vh;
+}
+.ftt{
+    font-size:12px;
+}
 
-
-
-
+}
 @media (max-width: 321px){
 .box {
     
@@ -199,7 +207,7 @@ h3{
 }
 #cretronixlogo{
      height: 35px;
-    width: 55px;
+    width: 5px;
     margin-left: -0.8vw;
 
 
@@ -214,28 +222,51 @@ h3{
     border-radius: 3px;
     color: white;
     outline-style: none;
-    width: 32vw;
+    width: 42vw;
     height: 6.1vh;
 }
 
+
+}
+@media (max-width: 361px){
+   .bar a{
+    font: 15px ROBOTO;
+    margin-left: 0.3vw;  
+}
+ #pisblogo{
+    
+    height: 30px;
+    width: 80px;
+}
+#cretronixlogo{
+     height: 35px;
+    width: 55px;
+    margin-left: -0.8vw;
+}
+.box{
+    margin-top: 5vh;
+}
+footer{
+    margin-top: 5vh;
+}
 }
 @media (max-width: 376px){
 .box {
     
     padding: 0;
-    margin-top: 3vh;
+    margin-top: 5vh;
     background:#002244;
     height: 69vh;
     border: 0px;
     font-family: sans-serif;
     background-color:  rgba(0,0,0,0.8);
     box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.8);
-    width: 70vw;
+    width: 78vw;
     border-radius: 15px;
 }
 .bar a{
     font: 20px ROBOTO;
-    margin-left:5.6vw;
+    margin-left:0.2vw;
     
 }
 .box .card-body{
@@ -246,7 +277,7 @@ h3{
 }
 
  #pisblogo{
-    margin-left: 13.5vw;
+    margin-left: 1.9vw;
     height: 30px;
     width: 80px;
 }
@@ -259,68 +290,22 @@ h3{
 }
  #btn {
     font-family: sans-serif;
-    font-size: 19px;
+    font-size: 15px;
     border: 1px solid black;
     background: linear-gradient(-180deg,#00AACC,#001122);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
-    margin-top: 2.6vh;
+    margin-top: 3vh;
     border-radius: 3px;
     color: white;
     outline-style: none;
-    width: 24vw;
+    width: 29vw;
     height: 6.1vh;
 }
 .card-footer{
     font-size: 12px;
  }
 }
-@media (max-width: 426px){
-.box {
-    margin-left: 6.4vw;
-    padding: 0;
-    margin-top: 3.5vh;
-    background:#002244;
-    height: 72.2vh;
-    border: 0px;
-    font-family: sans-serif;
-    background-color:  rgba(0,0,0,0.8);
-    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.8);
-    width: 80vw;
-    border-radius: 15px;
-}
-.bar {
-    font: 1rem sans-serif;
-    margin-left: 14.9vw;
-}
-.box .card-body{
-    font-size: 18px;
-}
-h3{
-    font-size: 20px;
-}
 
- #btn {
-    font-family: sans-serif;
-    font-size: 15px;
-    border: 1px solid black ;
-    background: linear-gradient(-180deg,#00AACC,#001122);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
-    margin-top: 2.5vh;
-    border-radius: 3px;
-    color: white;
-    outline-style: none;
-    width: 25vw;
-    height: 6vh;
-    padding-top: 0px;
-    
-}
-footer{
-    margin-top: 3vh;
-}
-.ftt{
-    font-size:12px;
-}
-}
 @media (max-width: 768px){
 .fixed-bottom { 
 position: relative; 
@@ -355,14 +340,25 @@ position: relative;
 .box .card-body{
     font-size: 14px;
 }
-#pisblogo{
-    margin-left: 26vw;
-}
+
 h3{
     font-size: 20px;
 }
 footer{
     margin-top: 1vh;
+}
+#pisblogo{
+    
+    height: 35px;
+    width: 100px;
+    margin-left: 28vw;
+}
+#cretronixlogo{
+     height: 40px;
+    width: 65px;
+    margin-left: -0.8vw;
+
+
 }
 }
 @media (min-width: 1024px){
@@ -385,7 +381,7 @@ footer{
 }
 .bar a{
     font: 22px ROBOTO;
-    margin-left: 32.8vw;
+    margin-left: 37.8vw;
     
 }
 #btn {
@@ -402,7 +398,7 @@ footer{
     height: 6vh;
 }
 #pisblogo{
-    margin-left: 38vw;
+    margin-left: 34vw;
 }
 }
 @media (min-width: 1200px){
