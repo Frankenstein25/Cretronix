@@ -253,7 +253,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
 
 }
 .box :hover{
-  
+  color: #00AACC;
 
 }
 
@@ -261,6 +261,7 @@ a.questionnumber{
   color: white;
   text-decoration: none;
 }
+
 
 
 footer{
