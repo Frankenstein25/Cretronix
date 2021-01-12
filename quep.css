@@ -1557,6 +1557,20 @@ position: relative;
   #ft1{
     margin-left: 18.4vw;
   }
+    #q1{
+  height: 5.5vh;
+  overflow: auto;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  padding-top: 0vh;
+  
+  margin-bottom: 0.6vh;
+
+}
   body{
     font-size: 27px;
   }
@@ -1589,6 +1603,20 @@ position: relative;
     margin-left: 35vw;
     
   }
+  #q1{
+  height: 5.5vh;
+  overflow: auto;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  padding-top: 0.6vh;
+  
+  margin-bottom: 0.6vh;
+
+}
   #ft1{
     margin-left: 18.6vw;
   }
