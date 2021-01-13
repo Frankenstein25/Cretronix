@@ -1,8 +1,9 @@
 body {
     background-color: #001122;
-    overflow: hidden;
+    overflow:hidden;
 }
-.bg{
+
+/*.bg{
     position: absolute;
     margin-left:-1vw;
     margin-top:-4.5vw;
@@ -12,7 +13,7 @@ body {
   .st0 {
     position: relative;
     fill: none;
-    stroke:#00AACC;/* #008C4A;*/
+    stroke:#00AACC;/* #008C4A;
     stroke-miterlimit: 10;
     left:-1vw;
     top:-1vw;
@@ -22,14 +23,14 @@ body {
     left:-1vw;
     top:-1vw;
     fill: none;
-    stroke:#002288;/* #d4af37;*/
+    stroke:#002288;/* #d4af37;
     stroke-linecap: round;
     stroke-miterlimit: 10;
-  }
+  }*/
+
 .nbc{
     margin-right:1vw;
-}
-  
+} 
 .nb{
     background-color: rgba(0,0,0,0.7)!important;
     z-index:2;
@@ -40,7 +41,6 @@ form{
     position: absolute;
     top:2.5vw;
 }
-
 .container-fluid{
     height:100vh;
     width: 100vw;
@@ -174,35 +174,43 @@ a.ft{
     top:-5vw;
     justify-content: center;
 }
+
 /* Media Query */
 
 @media (max-width:425px){
+    body{
+        overflow: auto;
+    }
     .il{
         display:none;
     }
     .cred{
         height:100px;
         width:110px;
+        margin-left:2vw;
     }
     .txt{
         font-size:25px;
     }
     .stxt{
-        font-size:20px;
+        font-size:23px;
+        margin-left:4vw;
     }
     .en{
-        font-size:30px;
+        font-size:40px;
+        margin-left:7vw;
+        margin-top:-3vw;
     }
     .nb{
         background-color: #000 !important;
         opacity:1;
-        font-size:12px;
+        font-size:18px;
     }
     .nt{
-        font-size: 12px;
+        font-size: 14px;
     }
     a.abs{
-        font-size:12px;
+        font-size:14px;
     }
     .logo{
         height:35px;
@@ -229,8 +237,8 @@ a.ft{
         height:100vw;
         width:65vw;
         font-size: 18px;
-        margin-left:-20.5vw;
-        margin-top:70vw;
+        margin-left:-14.5vw;
+        margin-top:72vw;
         padding-left:8vw;
         padding-top:15vw;
     }
@@ -292,7 +300,7 @@ a.ft{
 @media(max-width:375px){
     .input-area{
         position: absolute;
-        top:13vw;
+        top:50vw;
         height:100vw;
         width:65vw;
         padding-top:5vw;
@@ -317,16 +325,38 @@ a.ft{
         margin-top:7vw;
         font-size: 12.5px;
     }
+    .pad{
+        padding:50%;
+    }
+    .txt{
+        font-size:24px;
+    }
+    .en{
+        font-size:35px;
+        margin-left:8vw;
+        margin-top:-3vw;
+    }
+    .cred{
+        margin-left:-2vw;
+    }
 }
 @media(max-width:365px){
     .input-area{
         position: absolute;
-        top:12vw;
-        height:105vw;
+        top:52vw;
+        height:100vw;
         width:68vw;
         font-size:18px;
         padding-top:6vw;
-
+    }
+    .txt{
+        font-size:22.55px;
+    }
+    .en{
+        margin-left:6vw;
+    }
+    .stxt{
+        font-size:21px;
     }
     .nt{
         font-size:11px;
@@ -350,7 +380,7 @@ a.ft{
         font-size:10px;
     }
     .input-area{
-        height: 100vw;
+        height: 95vw;
         width:65vw;
         font-size: 15px;
         padding-left:9.5vw;
@@ -380,4 +410,19 @@ a.ft{
     a.abs{
         font-size:10.5px;
     }
+    .txt{
+        font-size:18px;
+        margin-left:-1vw;
+    }
+    .stxt{
+        font-size:18px;
+    }
+    .en{
+        font-size:30px;
+        margin-top:-5vw;
+    }
+    .input-area{
+        height:95vw;
+    }
+
 }

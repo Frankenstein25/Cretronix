@@ -39,6 +39,10 @@ body{
     font-size: 1.25em;
     font-family:"Segoe UI",Roboto,Arial,sans-serif;
 }
+.cr{
+    height:40px;
+    width:65px;
+}
 .to{
     color:white!important;
 }
@@ -226,6 +230,9 @@ footer {
 }
 
 @media(max-width:426px){
+    .cl{
+        display:none;
+    }
     .main1{
         height:72vw;
         width:64vw;
