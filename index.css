@@ -191,7 +191,7 @@ a.ft{
         margin-top:1vw;
     }
     .whole{
-        position: absolute;
+        position: relative;
         top:-180vw;
     }
     .stxt{
@@ -264,6 +264,9 @@ a.ft{
     }
 }
 @media(max-width:400px){
+    body{
+        overflow: hidden;
+    }
     .input-area{
         height:105vw;
         width:70vw;
@@ -280,6 +283,9 @@ a.ft{
     }
 }
 @media(max-width:385px){
+    body{
+        overflow: hidden;
+    }
     .input-area{
         height:110vw;
     }
@@ -297,6 +303,9 @@ a.ft{
     }
 }
 @media(max-width:375px){
+    body{
+        overflow: hidden;
+    }
     .input-area{
         position: absolute;
         top:32vw;
@@ -336,6 +345,9 @@ a.ft{
     }
 }
 @media(max-width:365px){
+    body{
+        overflow: hidden;
+    }
     .input-area{
         position: absolute;
         top:35vw;
@@ -368,6 +380,9 @@ a.ft{
     }
 }
 @media(max-width:325px){
+    body{
+        overflow: hidden;
+    }
     a.title{
         font-size:10px;
     }
@@ -395,6 +410,9 @@ a.ft{
     }
 }
 @media(max-width:335px){
+    body{
+        overflow: hidden;
+    }
     .sign{
         margin-right:6.5vw;
     }
