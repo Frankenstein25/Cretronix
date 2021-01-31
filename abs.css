@@ -295,7 +295,7 @@ footer {
         padding: 8% !important;
     }
     .ft{
-        font-size:15px;
+        font-size:12px;
         overflow: hidden;
         
     }
@@ -310,7 +310,7 @@ footer {
         padding-top:8vw;
     }
     a.ps{
-        font-size:15px;
+        font-size:12px;
     }
 }
 @media(max-width:392px){

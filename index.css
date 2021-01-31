@@ -194,18 +194,11 @@ a.ft{
         position: absolute;
         top:-180vw;
     }
-    .txt{
-        font-size:25px;
-    }
     .stxt{
         display:none;
-        font-size:23px;
-        margin-left:4vw;
     }
     .en{
-        font-size:40px;
-        margin-left:7vw;
-        margin-top:-3vw;
+        display:none;
     }
     .nb{
         background-color: #000 !important;
@@ -334,13 +327,8 @@ a.ft{
     .pad{
         padding:50%;
     }
-    .txt{
-        font-size:24px;
-    }
     .en{
-        font-size:35px;
-        margin-left:8vw;
-        margin-top:-3vw;
+        display:none;
     }
     .cred{
         margin-left:-1vw;
@@ -356,14 +344,11 @@ a.ft{
         font-size:18px;
         padding-top:6vw;
     }
-    .txt{
-        font-size:22.55px;
-    }
     .en{
-        margin-left:6vw;
+        display:none;
     }
     .stxt{
-        font-size:21px;
+        display:none;
     }
     .nt{
         font-size:11px;
@@ -420,16 +405,11 @@ a.ft{
     a.abs{
         font-size:10.5px;
     }
-    .txt{
-        font-size:18px;
-        margin-left:-1vw;
-    }
     .stxt{
-        font-size:18px;
+        display:none;
     }
     .en{
-        font-size:30px;
-        margin-top:-5vw;
+        display:none;
     }
     .input-area{
         height:95vw;
