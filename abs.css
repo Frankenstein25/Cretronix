@@ -329,3 +329,17 @@ footer {
         padding-top:7vw;
     }
 }
+@media(min-width:1700px){
+    .icons i{
+        position: relative;
+        font-size:35px;
+        margin-top:0.5vw;
+    }
+    h2{
+        font-size:30px;
+    }
+    .ht{
+        position: relative;
+        left:45%;
+    }
+}
