@@ -157,7 +157,7 @@ a.ft{
         display:none;
     }
     .cred{
-        position: absolute;
+        position: fixed;
         height:38vw;
         width:76vw;
         top:9%;
