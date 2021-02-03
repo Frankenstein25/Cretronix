@@ -16,12 +16,9 @@ body {
 }
 .nbt{
     position: absolute;
-    right:0;
-    left:0;
     background-color: rgba(0,0,0,0.9)!important;
     font-size:18px;
     color:white;
-
 }
 .title{
     visibility: hidden;
@@ -29,6 +26,7 @@ body {
     position: relative;
     font-family:Roboto;
     color:white;
+    text-decoration: none;
 }
 .logo{
     height:40px;
@@ -42,8 +40,9 @@ body {
     position: relative;
     margin-top:-12vw;
     margin-left:5.8vw;
-    height:70px;
+    height:90px;
     width:90px;
+    border-radius: 50%;
 }
 .input-area{
     position: absolute;
@@ -122,11 +121,11 @@ a.ft{
     font-size:18px;
 }
 .cred{
-    position:absolute;
-    height:20vw;
-    width:40vw;
-    top:15%;
-    left:5%;
+    position:fixed;
+    height:17vw;
+    width:35vw;
+    top:19%;
+    left:7%;
 }
 .stxt{
     position: absolute;
@@ -144,11 +143,8 @@ a.ft{
     font-size:80px;
     font-weight:bold;
     top:57%;
-    left:12%;
+    left:10%;
     justify-content: center;
-}
-.pad{
-    padding:1%;
 }
 /* Media Query */
 
@@ -171,12 +167,11 @@ a.ft{
     }
     .nb{
         background-color: #000 !important;
-        opacity:1;
+        opacity: 1;
         font-size:18px;
         z-index:3 !important;
     }
     .nbt{
-        position: absolute;
         background-color: #000 !important;
         opacity:1;
         font-size:18px;
@@ -198,7 +193,7 @@ a.ft{
         font-size: 25px;
     }
     .cre1{
-        height:60px;
+        height:75px;
         width:75px;
         margin-top:-32vw;
         margin-left:16vw;
@@ -288,7 +283,7 @@ a.ft{
         margin-left:-4.2vw;
     }
     .cre1{
-        height: 50px;
+        height: 65px;
         width:65px;
         margin-left:12vw;
         margin-top:-19vw;
@@ -336,7 +331,7 @@ a.ft{
         font-size:12px;
     }
     .cre1{
-        height:50px;
+        height:62px;
         width:62px;
         margin-left:13vw;
         margin-top:-22vw;
@@ -357,7 +352,7 @@ a.ft{
         margin-top:30vw;
     }
     .cre1{
-        height:45px;   
+        height:55px;   
         width:55px;
         margin-left:14vw;
     }
@@ -390,19 +385,19 @@ a.ft{
 }
 @media(min-width:1700px){
     .cred{
-        position: absolute;
-        margin-left:4vw;
+        position: fixed;
+        margin-left:2vw;
     }
     .stxt{
         position: absolute;
-        left:24%;
-        top:48%;
+        left:22%;
+        top:47%;
         font-size:2.5vw;
     }
     .en{
         position: absolute;
-        margin-left:2.5vw;
-        margin-top:-1.5vw;
+        margin-left:2.4vw;
+        margin-top:-2vw;
         font-size:5.5vw;
     }
     .input-area{
@@ -416,7 +411,7 @@ a.ft{
         padding-top:1vw;
     }
     .cre1{
-        height:100px;
+        height:120px;
         width:120px;
         border-radius: 50%;
         margin-left:6vw;
