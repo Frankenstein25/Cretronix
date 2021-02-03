@@ -149,13 +149,6 @@ body{
 .main6:hover{
     transform: scale(1.05);
 }
-/*.gradient {
-    height: 20vw;
-    width: 17vw;
-    background: linear-gradient(to top, rgba(28, 171, 238, 0.7), rgba(253, 252, 252, 0.21));
-    color: white;
-    border-radius:5%;
-}*/
 .content {
     height:5vw;
     background-color:rgba(0,0,0,0.75);
@@ -309,12 +302,39 @@ footer {
         padding:8% !important;
     }
     .ft{
-        font-size:12px;
+        font-size:11px;
+    }
+    .icons i{
+        font-size:23px;
+    }
+    .icons{
+        bottom:19vw;
     }
 }
 @media(max-width:370px){
     #adjust{
         padding:12% !important;
+    }
+    .icons{
+        bottom:19.5vw;
+    }
+    .content{
+        font-size:8px !important;
+    }
+    h2{
+        padding-top:7vw;
+    }
+}
+@media(max-width:335px){
+    .icons{
+        bottom:19.5vw;
+        margin-left:1.5vw;
+    }
+    .icons i{
+        font-size:19px;
+    }
+    h2{
+        padding-top:6.5vw;
     }
 }
 @media(min-width:1700px){

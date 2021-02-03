@@ -1,54 +1,34 @@
 body {
-    background-color: #1D1E22;
+    background-color: #021631;
     overflow:hidden;
 }
-/*.bg{
-    position: absolute;
-    margin-left:-1vw;
-    margin-top:-4.5vw;
-    z-index:-1;
-    overflow: hidden;
-}
-  .st0 {
-    position: relative;
-    fill: none;
-    stroke:#00AACC;/* #008C4A;
-    stroke-miterlimit: 10;
-    left:-1vw;
-    top:-1vw;
-  }
-  .st1 {
-    position: relative;
-    left:-1vw;
-    top:-1vw;
-    fill: none;
-    stroke:#002288;/* #d4af37;
-    stroke-linecap: round;
-    stroke-miterlimit: 10;
-  }*/
-
 .nbc{
     margin-right:1vw;
 } 
 .nb{
-    background-color: rgba(0,0,0,0.7)!important;
-    z-index:2;
+    position: absolute;
+    right:0;
+    left:0;
+    background-color: rgba(0,0,0,0.9)!important;
+    z-index:100;
     font-size:18px;
     color:white;
 }
-form{
+.nbt{
     position: absolute;
-    top:2.5vw;
-}
-.container-fluid{
-    height:100vh;
-    width: 100vw;
+    right:0;
+    left:0;
+    background-color: rgba(0,0,0,0.9)!important;
+    font-size:18px;
+    color:white;
+
 }
 .title{
-    font-size:22px !important;
+    visibility: hidden;
+    font-size:25px !important;
     position: relative;
-    left:39%;
     font-family:Roboto;
+    color:white;
 }
 .logo{
     height:40px;
@@ -59,29 +39,24 @@ form{
     width:115px;
 }
 .cre1{
+    position: relative;
     margin-top:-12vw;
-    margin-left:5.5vw;
-    height:100px;
-    width:100px;
-    border-radius:50%;
-}
-#login::after{
-    filter:blur(10px);
-    box-shadow:inset 0 0 0 200px rgba(255,255,255,0.05)
+    margin-left:5.8vw;
+    height:70px;
+    width:90px;
 }
 .input-area{
     position: absolute;
-    left:33%;
+    top:20%;
+    left:60%;
 	height:32vw;
 	width:24vw;
     padding:3vw;
     padding-top:5vw;
     padding-left: 3vw;
-    margin:5vw;
-    margin-top:7vw;
-    margin-left: 27vw;
+    align-items: right;
     border:1.5px solid whitesmoke;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: rgba(0,0,0,0.7);
     color:white;
     font-size: 18px;
@@ -112,7 +87,7 @@ form{
     height:auto;
     border-radius: 3px;
     font-size: 22px;
-    background-color: #00AACC;
+    background-color:#608cdd;
     color:white;
     border:none;
     outline:none;
@@ -120,7 +95,7 @@ form{
 }
 .submit-btn:hover{
     transform:scale(1.10);
-    background-color: #00AACC;
+    background-color: #608cdd;
 }
 .sign{
     text-align: center;
@@ -128,13 +103,13 @@ form{
     font-size: 15px;
 }
 a.su:link{
-    color:green !important;
     text-decoration: none;
     background:transparent;
+    color:#608cdd;
 }
 a.abs{
     text-decoration: none;
-    color:white;
+    color:#608cdd;
     font-size:18px;
     font-family:Roboto;
 }
@@ -147,52 +122,46 @@ a.ft{
     font-size:18px;
 }
 .cred{
+    position:absolute;
     height:20vw;
     width:40vw;
-    margin-right:-4vw;
-    margin-bottom:1vw;
-}
-.whole{
-    position: absolute;
-    top:-48vw;
+    top:15%;
+    left:5%;
 }
 .stxt{
-    position: relative;
+    position: absolute;
+    top:52%;
+    left:19%;
     font-size:35px;
-    left:15vw;
-    bottom:4vw;
     font-weight:500;
     justify-content: center;
     color:white;
+
 }
 .en{
-    position: relative;
+    position: absolute;;
     color:white;
     font-size:80px;
     font-weight:bold;
-    left:6vw;
-    top:-27vw;
+    top:57%;
+    left:12%;
     justify-content: center;
 }
-
+.pad{
+    padding:1%;
+}
 /* Media Query */
 
 @media (max-width:425px){
-    body{
-        overflow: hidden !important;
-    }
     .il{
         display:none;
     }
     .cred{
+        position: absolute;
         height:38vw;
         width:76vw;
-        margin-left:3vw;
-        margin-top:1vw;
-    }
-    .whole{
-        position: relative;
-        top:-180vw;
+        top:9%;
+        left:12%;
     }
     .stxt{
         display:none;
@@ -204,6 +173,14 @@ a.ft{
         background-color: #000 !important;
         opacity:1;
         font-size:18px;
+        z-index:3 !important;
+    }
+    .nbt{
+        position: absolute;
+        background-color: #000 !important;
+        opacity:1;
+        font-size:18px;
+        z-index:3 !important;
     }
     .nt{
         font-size: 14px;
@@ -212,34 +189,29 @@ a.ft{
         font-size:14px;
     }
     .logo{
-        height:35px;
-        width:100px;
-    }
-    .bg{
-        position: absolute;
-        margin-left:-4vw;
-        margin-top:-15vw;
-        background-size: cover;
+        visibility:hidden;
     }
     .title{
-        font-size: 20px !important;
-        left:1vw;
-        margin-right:10vw;
+        position: relative;
+        left:-40vw;
+        visibility: visible;
+        font-size: 25px;
     }
     .cre1{
-        height:75px;
+        height:60px;
         width:75px;
-        margin-top:-38vw;
-        margin-left:15.5vw;
+        margin-top:-32vw;
+        margin-left:16vw;
     }
     .input-area{
-        height:100vw;
+        position: absolute;
+        top:36%;
+        left:19%;
+        height:97vw;
         width:65vw;
         font-size: 18px;
-        margin-left:-14.5vw;
-        margin-top:60vw;
         padding-left:8vw;
-        padding-top:15vw;
+        padding-top:12vw;
     }
     .input-field{
         width:50vw;
@@ -249,8 +221,8 @@ a.ft{
         border-bottom: 1px solid whitesmoke;
     }
     .submit-btn{
-        width:30vw;
-        margin-left:4vw;
+        width:27vw;
+        margin-left:6.5vw;
         margin-top:4vw;
     }
     .ico{
@@ -259,14 +231,14 @@ a.ft{
     .sign{
         position: relative;
         margin-top:7vw;
-        margin-right: 7vw;
+        margin-right:2vw;
         font-size: 14px;
+    }
+    .pad{
+        padding:20%;
     }
 }
 @media(max-width:400px){
-    body{
-        overflow: hidden;
-    }
     .input-area{
         height:105vw;
         width:70vw;
@@ -283,10 +255,10 @@ a.ft{
     }
 }
 @media(max-width:385px){
-    body{
-        overflow: hidden;
-    }
     .input-area{
+        position:absolute;
+        left:33%;
+        top:40%;
         height:110vw;
     }
     .sign{
@@ -303,26 +275,23 @@ a.ft{
     }
 }
 @media(max-width:375px){
-    body{
-        overflow: hidden;
-    }
     .input-area{
         position: absolute;
-        top:32vw;
+        top:34vw;
         height:97vw;
         width:65vw;
         padding-top:5vw;
-        margin-left:-15vw;
+        margin-left:-14vw;
         padding-left:-10vw;
     }
     .input-field{
         margin-left:-4.2vw;
     }
     .cre1{
-        height: 65px;
+        height: 50px;
         width:65px;
-        margin-left:11vw;
-        margin-top:-20vw;
+        margin-left:12vw;
+        margin-top:-19vw;
     }
     .submit-btn{
         margin-left:0.5vw;
@@ -341,13 +310,10 @@ a.ft{
     }
     .cred{
         margin-left:-1vw;
-        margin-top:2vw;
+        margin-top:1vw;
     }
 }
 @media(max-width:365px){
-    body{
-        overflow: hidden;
-    }
     .input-area{
         position: absolute;
         top:35vw;
@@ -363,14 +329,14 @@ a.ft{
         display:none;
     }
     .nt{
-        font-size:11px;
+        font-size:12px;
         margin-left:2vw;
     }
     a.abs{
-        font-size:11px;
+        font-size:12px;
     }
     .cre1{
-        height:62px;
+        height:50px;
         width:62px;
         margin-left:13vw;
         margin-top:-22vw;
@@ -380,9 +346,6 @@ a.ft{
     }
 }
 @media(max-width:325px){
-    body{
-        overflow: hidden;
-    }
     a.title{
         font-size:10px;
     }
@@ -390,29 +353,26 @@ a.ft{
         height: 95vw;
         width:65vw;
         font-size: 15px;
-        padding-left:9.5vw;
+        padding-left:11vw;
         margin-top:30vw;
     }
     .cre1{
-        height:55px;   
+        height:45px;   
         width:55px;
-        margin-left:13.2vw;
+        margin-left:14vw;
     }
     .submit-btn{
         font-size:15px;
         margin-left:2vw;
     }
     .sign{
-        font-size: 12px;
+        font-size: 11px;
     }
     .cred{
-        margin-top:5vw;
+        margin-top:3vw;
     }
 }
 @media(max-width:335px){
-    body{
-        overflow: hidden;
-    }
     .sign{
         margin-right:6.5vw;
     }
@@ -423,12 +383,6 @@ a.ft{
     a.abs{
         font-size:10.5px;
     }
-    .stxt{
-        display:none;
-    }
-    .en{
-        display:none;
-    }
     .input-area{
         height:95vw;
     }
@@ -436,34 +390,33 @@ a.ft{
 }
 @media(min-width:1700px){
     .cred{
-        position: relative;
+        position: absolute;
         margin-left:4vw;
-        margin-top:-2vw;
     }
     .stxt{
-        position: relative;
-        top:-2vw;
-        margin-left:2vw;
+        position: absolute;
+        left:24%;
+        top:48%;
         font-size:2.5vw;
     }
     .en{
-        position: relative;
-        margin-left:4vw;
+        position: absolute;
+        margin-left:2.5vw;
+        margin-top:-1.5vw;
         font-size:5.5vw;
-        margin-top:-6vw;
     }
     .input-area{
-        font-size:22px;
+        font-size:28px;
         padding-top:4.5vw;
     }
     .submit-btn{
-        margin-top:3vw;
+        margin-top:2vw;
     }
     .input-field{
         padding-top:1vw;
     }
     .cre1{
-        height:120px;
+        height:100px;
         width:120px;
         border-radius: 50%;
         margin-left:6vw;
