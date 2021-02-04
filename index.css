@@ -15,14 +15,9 @@ body {
     color:white;
 }
 .nbt{
-    position:absolute;
-    right:0;
-    left:0;
-    bottom:0;
     background-color: rgba(0,0,0,0.9)!important;
     font-size:18px;
     color:white;
-
 }
 .title{
     visibility: hidden;
@@ -64,6 +59,7 @@ body {
     color:white;
     font-size: 18px;
     font-family:Roboto;
+    z-index:5;
 }
 .input-field{
     background: transparent;
@@ -183,7 +179,7 @@ a.ft{
         background-color: #000 !important;
         opacity:1;
         font-size:18px;
-        z-index:3 !important;
+        z-index:0 !important;
         bottom:0;
     }
     .nt{
@@ -216,6 +212,7 @@ a.ft{
         font-size: 18px;
         padding-left:8vw;
         padding-top:12vw;
+        z-index:5;
     }
     .input-field{
         width:50vw;
